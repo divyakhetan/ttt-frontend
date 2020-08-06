@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ttt-frontend/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ttt-frontend/static/js/main.5474e27e.chunk.js",
+    "main.js.map": "/ttt-frontend/static/js/main.5474e27e.chunk.js.map",
+    "runtime-main.js": "/ttt-frontend/static/js/runtime-main.31b03a04.js",
+    "runtime-main.js.map": "/ttt-frontend/static/js/runtime-main.31b03a04.js.map",
+    "static/js/2.da5a3b67.chunk.js": "/ttt-frontend/static/js/2.da5a3b67.chunk.js",
+    "static/js/2.da5a3b67.chunk.js.map": "/ttt-frontend/static/js/2.da5a3b67.chunk.js.map",
+    "index.html": "/ttt-frontend/index.html",
+    "precache-manifest.2c294a2ad12cc9086ca3209d603cb7d5.js": "/ttt-frontend/precache-manifest.2c294a2ad12cc9086ca3209d603cb7d5.js",
+    "service-worker.js": "/ttt-frontend/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/ttt-frontend/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.da5a3b67.chunk.js.LICENSE.txt": "/ttt-frontend/static/js/2.da5a3b67.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ttt-frontend/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31b03a04.js",
+    "static/js/2.da5a3b67.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.5474e27e.chunk.js"
+  ]
+}
