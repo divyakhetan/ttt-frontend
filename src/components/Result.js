@@ -6,7 +6,7 @@ export class Result extends Component {
     const data = this.props.data;
     return (
       <div>
-        <div>The top {data.length} frequently occuring words are:</div>
+        {/* <div>The top {data.length} frequently occuring words are:</div> */}
         <Table striped bordered hover variant="dark">
           <tbody>
             <tr>

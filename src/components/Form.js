@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import axios from "axios";
 import Result from "./Result";
 import { Button } from "react-bootstrap";
+import Notification from "./Notification";
+
 export class Form extends Component {
   constructor(props) {
     super(props);
@@ -9,6 +11,9 @@ export class Form extends Component {
       n: "",
       showResult: false,
       data: [],
+      success: true,
+      showNotification: false,
+      message: "",
     };
   }
 
@@ -20,7 +25,8 @@ export class Form extends Component {
       .then((res) => {
         this.setState({ data: res.data["data"] });
         console.log(res.data["data"]);
-        console.log(this.state.data);
+        this.setState({ success: res.data["success"] });
+        this.setState({ message: res.data["message"] });
       });
   };
 
@@ -29,11 +35,19 @@ export class Form extends Component {
   };
 
   showComponent = (name) => {
+    this.setState({ showNotification: true });
     this.setState({ showResult: true });
   };
 
   render() {
-    const { n, showResult, data } = this.state;
+    const {
+      n,
+      showResult,
+      data,
+      success,
+      showNotification,
+      message,
+    } = this.state;
     return (
       <div>
         <form onSubmit={this.submitHandler}>
@@ -56,7 +70,7 @@ export class Form extends Component {
           </div>
           <br />
         </form>
-
+        {showNotification && <Notification msg={this.state.message} />}
         {showResult && <Result data={this.state.data} />}
       </div>
     );
