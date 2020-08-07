@@ -39,7 +39,7 @@ export class Form extends Component {
         <form onSubmit={this.submitHandler}>
           <br />
           <div>
-            <label>Enter n</label>
+            <label>Enter n:</label>
             <br />
             <input
               type="text"
