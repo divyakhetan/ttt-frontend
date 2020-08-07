@@ -2,6 +2,8 @@
 
 The frontend is implemented using ReactJS. 
 
+The link to the final project - https://divyakhetan.github.io/ttt-frontend/
+
 There are 4 components in this project:
 * Form.js - Containst the input and the submit button.
 * Result.js - Contains the table to be displayed. 
@@ -24,3 +26,6 @@ The following testcases are considered:
 3. n > total_words
 
 ![Image of n > 321](https://dl.dropbox.com/s/a288tirnj9aearq/pic6.JPG?dl=0)
+
+
+The text file used : https://terriblytinytales.com/test.txt
