@@ -16,7 +16,7 @@ export class Form extends Component {
     e.preventDefault();
     console.log(this.state);
     axios
-      .get("https://tttbackend1.herokuapp.com/file/data?n=" + this.state.n)
+      .get("https://tttbackend.herokuapp.com/file/data?n=" + this.state.n)
       .then((res) => {
         this.setState({ data: res.data["data"] });
         console.log(res.data["data"]);
